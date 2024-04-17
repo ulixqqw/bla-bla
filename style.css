@@ -12,3 +12,28 @@ main {
     background-color: silver;
     font-family: "Archivo Black";
 }
+
+.sliderimg {
+    width: 100%;
+    height: 300px;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.post img {
+    margin: 20px;
+}
+
+footer {
+    background-color: #5271ff;
+}
+
+.footer-columns {
+    display: flex;
+}
