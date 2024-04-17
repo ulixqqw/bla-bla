@@ -1,0 +1,14 @@
+header {
+    background-color: #5271ff;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+main {
+    padding: 10px;
+    background-color: silver;
+    font-family: "Archivo Black";
+}
