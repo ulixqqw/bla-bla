@@ -2,6 +2,7 @@ header {
     background-color:#f7f6f4;
     display: flex;
     height: 200px;
+    position: relative;
 }
 
 nav {
@@ -20,6 +21,8 @@ main {
     padding: 10px;
     background-color: silver;
     font-family: "Archivo Black";
+    position: relative;
+    z-index: 1;
 }
 
 .sliderimg {
