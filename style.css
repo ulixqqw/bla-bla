@@ -1,5 +1,5 @@
 header {
-    background-color: #5271ff;
+    background-color:rgb(238, 226, 202);
 }
 
 .logo {
@@ -20,7 +20,7 @@ main {
 
 
 .dropbtn {
-    background-color: #04AA6D;
+    background-color: #f5e8cc;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -52,7 +52,7 @@ main {
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color: #9c9585;}
 
   main {
     padding: 10px;
