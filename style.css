@@ -121,26 +121,4 @@ p {
     width: 580.078px;
 }
 
-section article {
-    display: grid;
-    gap: 25px;
-  }
-  section article img {
-    height: 250px;
-  }
-
-  .row-1 {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  .row-2 {
-    grid-template-columns: 2fr 1fr 1fr;
-  }
-
-  .row-3 {
-    grid-template-columns: 1fr 2fr 1fr;
-  }
-
-  .img-2 {
-    width: 612.5px;
-  }
 
