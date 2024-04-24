@@ -52,7 +52,7 @@ main {
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #f7f6f4;}
+  .dropdown:hover .dropbtn {background-color: #c7c1b6;}
 
   main {
     padding: 10px;
@@ -78,7 +78,7 @@ main {
 }
 
 footer {
-    background-color: #5271ff;
+    background-color: #f7f6f4;
 }
 
 .footer-columns {
