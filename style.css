@@ -54,6 +54,16 @@ main {
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+  main {
+    padding: 10px;
+    background-color: silver;
+    font-family: "Archivo Black";
+}
+
+.sliderimg {
+    width: 100%;
+    height: 300px;
+}
 
 .post {
     background-color: white;
@@ -74,3 +84,109 @@ footer {
 .footer-columns {
     display: flex;
 }
+
+.ggg {
+    position: relative;
+    left: 478px;
+}
+
+
+.footer-column {
+    flex: 50%;
+    margin: 20px;
+}
+
+#menu1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}
+
+#menu1 ul {
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: square;
+}
+
+#menu1>ul::after {
+    display: block;
+    width: 100%;
+    height: 0px;
+    clear: both;
+    content: " ";
+}
+
+#menu1 ul li {
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+#menu1 ul li ul li:first-child a {
+    border-top: 0px;
+}
+
+#menu1 ul li a {
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#menu1 ul li ul {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 200px;
+    background: #38b6ff;
+}
+
+#menu1 ul li:hover ul {
+    display: block;
+}
+
+#menu1 ul li ul li {
+    float: none;
+    width: 100%;
+}
+
+#menu1 ul li ul li a {
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #ffffff;
+    color: white;
+}
+
+h3 {
+    font-family: "Martian Mono";
+}
+
+p {
+    font-family: "Kanit";
+    font-weight: 300;
+}
+
+.infodiv {
+    width: 580.078px;
+}
+
+
