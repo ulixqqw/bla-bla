@@ -20,7 +20,7 @@ main {
 
 
 .dropbtn {
-    background-color: #81765d;
+    background-color: #ebe7dd;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -48,11 +48,11 @@ main {
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #fde7d1;}
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #9c9585;}
+  .dropdown:hover .dropbtn {background-color: #f7f6f4;}
 
   main {
     padding: 10px;
